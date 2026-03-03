@@ -1,2 +1,9 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
+run = "gcc -o main /home/runner/workspace/src/main.c -lm"
+
+[nix]
+channel = "stable-25_05"
+packages = ["nano"]
+
+[agent]
+expertMode = true
