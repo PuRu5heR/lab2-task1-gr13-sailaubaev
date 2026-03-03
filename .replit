@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o main /home/runner/workspace/src/main.c && ./main"
+run = "gcc -o main /home/runner/workspace/src/main.c -lm"
 
 [nix]
 channel = "stable-25_05"
